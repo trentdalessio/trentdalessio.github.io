@@ -1995,8 +1995,8 @@ fieldset[disabled] a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #696969;
+  border-color: #696969;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2010,9 +2010,9 @@ fieldset[disabled] a.btn {
 
 .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
-  background-color: #0069d9;
+  background-color: #696969;
   background-image: none;
-  border-color: #0062cc;
+  border-color: #696969;
 }
 
 .btn-secondary {
