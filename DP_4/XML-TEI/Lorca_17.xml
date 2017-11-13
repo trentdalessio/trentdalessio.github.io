@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+        <editor xml:id="SAT">Susanna Allés Torrent</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Proyecto Lorca en Cuba. SPA 322</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Coral Gables, Florida</settlement>
+            <repository>Library Digital Collections, University of Miami</repository>
+            <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico
+              García Lorca Papers</collection>
+            <idno corresp="http://merrick.library.miami.edu/cdm/ref/collection/chc5324/id/10/rec/21"
+              >chc5324000017</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+              <docTitle>
+                <titlePart>Federico García Lorca letter to José María Chacón y Calvo</titlePart>
+              </docTitle>
+              <docImprint>
+                <pubPlace>Brugos (España)</pubPlace>
+              </docImprint>
+              <docDate when="1929">???</docDate>
+              <note type="correspondencia">
+                <persName type="emisor">Federico García Lorca</persName>
+                <persName type="destinatario">José María Chacón y Calvo</persName>
+              </note>
+              <note type="contenido">
+                <p>En este pliego de dos hojas hay dos cartas diferentes.</p>
+              </note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="carta">
+              <supportDesc>
+                <extent><dimensions>
+                    <height>23cm</height>
+                    <width>18cm</width>
+                  </dimensions></extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="carta" n="1">
+        <pb facs="../images/Richter/17_1.jpg" n="recto"/>
+        <div type="paratexto">
+          <ab>Pax <lb/>
+            <placeName>Real Monasterio de Santo Domingo de Silos</placeName>
+            <lb/> Por Salas de los Infantes <lb/> (Provincia de <placeName>Burgos</placeName>)</ab>
+        </div>
+        <div type="texto">
+          <opener>
+            <salute>Querido José María</salute>
+          </opener>
+          <p> Estuve a visitarte.</p>
+          <p>No estabas.</p>
+          <p>Creo que estabas <lb/> en la legación.</p>
+          <p>En la legación habrá <lb/>miles de documentos<lb/> originales.</p>
+          <p>Cuando he pensado en esto <lb/> he tenido un gran susto.</p>
+          <p>Quédate con Dios y tu San Francisco.<lb/> Otro día te veré.</p>
+
+          <closer>
+            <salute>Un abrazo (a la derecha), otro abrazo (a la izquierda), otro abrazo
+              (centro)</salute>
+            <signed>Federico Rex de Andalucía</signed>
+          </closer>
+        </div>
+        <pb facs="../images/Richter/17_2.jpg" n="verso"/>
+        <div type="texto">
+
+          <lg>
+            <l>Otra vez vuelvo.</l>
+            <l>La misma carta.</l>
+            <l>Todo el zumo de la tarde.</l>
+            <l>Campo largo</l>
+            <l>Campo verde</l>
+            <l>Campo maduro ¿de Cuba?</l>
+            <l>Esto no está bien</l>
+            <l>Estás hecho un callejero</l>
+          </lg>
+          <closer><salute>1 abrazo 2 abrazos 3 abrazos</salute>
+            <signed>Federico <lb/> Rex Andalucía</signed>
+            <figure>
+              <figDesc>Rama con dos frutos y hojas</figDesc>
+            </figure>
+          </closer>
+        </div>
+      </div>
+      <div type="carta" n="2">
+        <pb facs="../images/Richter/17_3.jpg" n="recto"/>
+        <div type="texto">
+          <opener><salute>Queridísimo José María:</salute></opener>
+          <p>Mi hermano acaba de entre<lb/>garme tu cariñosa carta <lb/> nunca te la agradeceré
+            bas-<lb/>tante! y las fotografías! Lo <lb/> primero que he hecho es ve<lb/>nir a verte,
+            pues dentro de <lb/> media hora estaré con <lb/> D. <persName>Eloy
+            Relosillas</persName>, un an-<lb/>tiguo amigo de mi padre <lb/> a quien no puedo dejar
+            de ver, (tendré que comer con el) </p>
+          <p>Tu carta ha llegado tarde! Mañana, a primera hora <damage agent="roto" group="2"
+                ><supplied>(a </supplied></damage> las 10) te haré una</p>
+          <!-- ¿Cómo sigue este texto? -->
+        </div>
+        <!--Falta el reverso -->
+      </div>
+    </body>
+  </text>
+</TEI>
